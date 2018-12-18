@@ -1,0 +1,46 @@
+.detailContainer{
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.detailContainer p{
+	text-align: center;
+}
+
+.imgDiv{
+	width: 100px;
+	border-radius: 100px;
+	overflow: hidden;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.details{
+	box-shadow: 1px 2px 10px #666;
+	padding:10px;
+	border-radius: 4px;
+}
+
+.inputFieldDiv{
+	display: flex;
+	padding: 10px 5px;
+}
+
+.inputFieldDiv span{
+	min-width: 30%;
+}
+
+.InputFields{
+	width: 100%;
+	color:#fff;
+	background-color: transparent;
+	border:0px;
+	display: inline;
+	border-bottom: 1px solid #000;
+	font-family: 'Roboto', sans-serif;
+}

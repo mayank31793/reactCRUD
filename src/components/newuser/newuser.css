@@ -1,0 +1,46 @@
+.newuserContainer{
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+.newuser{
+	/*display: flex;*/
+	box-shadow: 1px 2px 10px #666;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.newUserHeading{
+	display: flex;
+	justify-content: center;
+}
+
+.InputFields:focus{
+	outline: none;
+}
+
+.InputFields{
+	width: 100%;
+	color:#fff;
+	background-color: transparent;
+	border:0px;
+	display: inline;
+	border-bottom: 1px solid #000;
+	font-family: 'Roboto', sans-serif;
+}
+
+.inputFieldDiv{
+	display: flex;
+	padding: 10px 5px;
+}
+
+.inputFieldDiv span{
+	min-width: 30%;
+}
+
+.inputFieldSubmit{
+	display: flex;
+	justify-content: flex-end;
+}
